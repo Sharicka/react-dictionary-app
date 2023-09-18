@@ -1,0 +1,10 @@
+.Meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.Subtitle {
+  font-size: 5vw;
+  font-family: "Roboto Mono";
+}
