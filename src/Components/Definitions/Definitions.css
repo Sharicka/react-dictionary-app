@@ -2,9 +2,28 @@
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  scrollbar-width: thin;
+  border: 1px solid #6bc5b7;
+  overflow-x: hidden;
 }
 
 .Subtitle {
-  font-size: 5vw;
+  font-size: 25px;
   font-family: "Roboto Mono";
+}
+
+.singleMeaning {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 4px 0;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 }
